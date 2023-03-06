@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fc-main{
+    display: flex;
+}
+
+.fi-chat{
+    min-height: 100vh;
+    width: 100%;
+    border-right: 2px solid #f3f5f1;
+}
+
+.fi-dashboard{
+    min-height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+@media (min-width: 768px){
+    .fi-chat{
+        max-width: 350px;
+    }
+
+    .fi-dashboard {
+        display: flex;
+    }
+}
+
+.fi-dashboard{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.fi-dashboard img{
+    width: 18em;
+    border-radius: 3%;
+}
+
+.fi-dashboard h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.fi-dashboard p{
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fi-chat{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 2px solid #E8EBE4;
+}
+.chat-box1-1{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.chat-box1-1-text p:first-child{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.chat-box1-1-text p:last-child{
+    font-weight: 100;
+    font-size: 12px;
+    color: #828485 ;
+}
+
+
+.chat-box1-1 img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.chat-box1-2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #828485 ;
+}
+
+.chat-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0 48px 0;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.chat-box2 button{
+    width: 200px;
+    height: 55px;
+    background-color: #a491d2;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.chat-box3{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box3-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:18px;
+    padding: 16px 0 16px 18px;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.chat-box3-user img{
+    width: 58px;
+    border-radius: 50%;
+}
+
+.chat-box3-user-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.chat-box3-user-text p:first-child{
+    font-size: 18px;
+}
+
+.chat-box3-user-text p:last-child{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
